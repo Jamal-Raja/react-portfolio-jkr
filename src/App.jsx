@@ -1,14 +1,21 @@
-import DecryptedText from "./components/DecryptedText";
 import Hero from "./components/Hero";
-import LiquidEther from "./components/LiquidEther";
-import TextType from "./components/TextType";
+import About from "./components/About";
 
 function App() {
   return (
     <>
-      <Hero link="https://www.spacex.com/"></Hero>
+      <Hero chevronLink="#About"></Hero>
+      <About></About>
+      {/* <div className="bg-amber-300 h-screen"></div> */}
     </>
   );
 }
 
 export default App;
+
+/**  =================== TO DO ===================
+ * - add project section __IN_PROGRESS⏳__
+ * - animate about section text on scroll
+ * - add contact section
+ * - add easteregg 🐣
+ */

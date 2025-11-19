@@ -1,7 +1,7 @@
 import LiquidEther from "./LiquidEther";
 import TextType from "./TextType";
 
-export default function Hero({ link }) {
+export default function Hero({ chevronLink }) {
   return (
     <>
       {/* Container */}
@@ -34,7 +34,7 @@ export default function Hero({ link }) {
           />
         </div>
         {/* chevron down */}
-        <a href={link} target="_blank">
+        <a href={chevronLink}>
           <svg
             className="w-[50px] h-[50px] fill-white absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-bounce cursor-pointer"
             viewBox="0 0 512 512"
