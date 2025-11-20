@@ -8,8 +8,8 @@ export default function Project() {
         <div className="absolute inset-0 w-screen">
           <Particles
             particleColors={["#ffffff", "#ffffff"]}
-            particleCount={200}
-            particleSpread={10}
+            particleCount={2000}
+            particleSpread={7}
             speed={0.1}
             particleBaseSize={50}
             moveParticlesOnHover={false}
