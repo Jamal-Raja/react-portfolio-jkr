@@ -110,16 +110,15 @@ const allProjects = [
     screenshot:
       "public/assets/images/project-screenshots/sona-fullstack-blog.jpeg",
   },
-
   {
-    name: "README Generator",
-    techStack: ["Python", "Streamlit"],
+    name: "Citiline Accountants",
+    techStack: ["HTML", "CSS", "JavaScript", "Python"],
     description:
-      "A lightweight Streamlit application that allows users to generate clean and consistent README.md files. It provides a guided form, live Markdown preview, and one-click download functionality, making documentation fast and user-friendly.",
-    repoLink: "https://github.com/Jamal-Raja/readme-generator",
-    liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
+      "Designed and built a fully responsive site using HTML, CSS, JavaScript, and Python, tailored for a professional accounting practice. Integrated Calendly to streamline client bookings, embedded a live HMRC news feed, and connected Slack webhooks to deliver instant callback notifications to the Citiline team. The result is a modern, client-focused platform that enhances efficiency and credibility.",
+    repoLink: "https://github.com/Jamal-Raja/Citiline-Website.git",
+    liveAppLink: "https://jamal-raja.github.io/Citiline-Website/",
     screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
+      "public/assets/images/project-screenshots/citiline-accountants.jpeg",
   },
   {
     name: "README Generator",
@@ -132,53 +131,42 @@ const allProjects = [
       "public/assets/images/project-screenshots/readme-generator-python.png",
   },
   {
-    name: "README Generator",
-    techStack: ["Python", "Streamlit"],
+    name: "Clarity — Minimalist Note App",
+    techStack: [
+      "HTML",
+      "JavaScript",
+      "TailwindCSS",
+      "DaisyUI",
+      "Node.js",
+      "Express",
+      "JSON Storage",
+      "Nodemon",
+      "Tailwind CLI",
+    ],
     description:
-      "A lightweight Streamlit application that allows users to generate clean and consistent README.md files. It provides a guided form, live Markdown preview, and one-click download functionality, making documentation fast and user-friendly.",
-    repoLink: "https://github.com/Jamal-Raja/readme-generator",
-    liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
+      "Clarity is a minimalist note-taking web app built with Express, Tailwind CSS v4, and DaisyUI. It offers real-time auto-save, instant note creation and deletion, multi-theme support with localStorage, and lightweight JSON-based storage — making it fast, simple, and distraction-free.",
+    repoLink: "https://github.com/Jamal-Raja/clarity.git",
+    liveAppLink: "https://clarity-7op9.onrender.com/",
     screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
+      "public/assets/images/project-screenshots/clarity-notes-app.png",
   },
   {
-    name: "README Generator",
-    techStack: ["Python", "Streamlit"],
+    name: "Interactive To-Do List",
+    techStack: ["HTML", "CSS", "JavaScript"],
     description:
-      "A lightweight Streamlit application that allows users to generate clean and consistent README.md files. It provides a guided form, live Markdown preview, and one-click download functionality, making documentation fast and user-friendly.",
-    repoLink: "https://github.com/Jamal-Raja/readme-generator",
-    liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
-    screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
+      "A dynamic to-do list application focused on DOM manipulation. Built using vanilla JavaScript, HTML, and CSS, the app provides a clean interface for adding, managing, and removing tasks. The emphasis is on core JavaScript functionality rather than framework-based behaviour.",
+    repoLink: "https://github.com/Jamal-Raja/interactive-to-do-list.git",
+    liveAppLink: "https://jamal-raja.github.io/interactive-to-do-list/",
+    screenshot: "public/assets/images/project-screenshots/to-do-list.jpeg",
   },
   {
-    name: "README Generator",
-    techStack: ["Python", "Streamlit"],
+    name: "Wireframe-to-Production — Renaissance Construction",
+    techStack: ["HTML", "CSS", "JavaScript"],
     description:
-      "A lightweight Streamlit application that allows users to generate clean and consistent README.md files. It provides a guided form, live Markdown preview, and one-click download functionality, making documentation fast and user-friendly.",
-    repoLink: "https://github.com/Jamal-Raja/readme-generator",
-    liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
+      "A responsive, multi-page website built from an initial wireframe for Renaissance Construction, a UK-based construction company. Developed with semantic HTML5, modern CSS3, and vanilla JavaScript, the site includes a light/dark theme toggle, sticky header, mobile dropdown navigation, reusable components, responsive hero sections, interactive service cards, and persistent user preferences. The build adheres strictly to the original wireframe specifications.",
+    repoLink: "https://github.com/Jamal-Raja/wireframe-to-production.git",
+    liveAppLink: "https://jamal-raja.github.io/wireframe-to-production/",
     screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
-  },
-  {
-    name: "README Generator",
-    techStack: ["Python", "Streamlit"],
-    description:
-      "A lightweight Streamlit application that allows users to generate clean and consistent README.md files. It provides a guided form, live Markdown preview, and one-click download functionality, making documentation fast and user-friendly.",
-    repoLink: "https://github.com/Jamal-Raja/readme-generator",
-    liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
-    screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
-  },
-  {
-    name: "README Generator",
-    techStack: ["Python", "Streamlit"],
-    description:
-      "A lightweight Streamlit application that allows users to generate clean and consistent README.md files. It provides a guided form, live Markdown preview, and one-click download functionality, making documentation fast and user-friendly.",
-    repoLink: "https://github.com/Jamal-Raja/readme-generator",
-    liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
-    screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
+      "public/assets/images/project-screenshots/wireframe-to-production.jpeg",
   },
 ];
