@@ -1,12 +1,13 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Project from "./components/Project";
 
 function App() {
   return (
     <>
-      <Hero chevronLink="#About"></Hero>
-      <About></About>
-      {/* <div className="bg-amber-300 h-screen"></div> */}
+      <Hero chevronLink="#About" />
+      <About />
+      <Project />
     </>
   );
 }
