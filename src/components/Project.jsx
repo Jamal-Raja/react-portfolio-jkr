@@ -131,8 +131,7 @@ const allProjects = [
       "Designed and built a fully responsive site using HTML, CSS, JavaScript, and Python, tailored for a professional accounting practice. Integrated Calendly to streamline client bookings, embedded a live HMRC news feed, and connected Slack webhooks to deliver instant callback notifications to the Citiline team. The result is a modern, client-focused platform that enhances efficiency and credibility.",
     repoLink: "https://github.com/Jamal-Raja/Citiline-Website.git",
     liveAppLink: "https://jamal-raja.github.io/Citiline-Website/",
-    screenshot:
-      "public/assets/images/project-screenshots/citiline-accountants.jpeg",
+    screenshot: "./assets/images/project-screenshots/citiline-accountants.jpeg",
   },
   {
     name: "README Generator",
@@ -142,7 +141,7 @@ const allProjects = [
     repoLink: "https://github.com/Jamal-Raja/readme-generator",
     liveAppLink: "https://readme-generator-by-jamal.streamlit.app",
     screenshot:
-      "public/assets/images/project-screenshots/readme-generator-python.png",
+      "./assets/images/project-screenshots/readme-generator-python.png",
   },
   {
     name: "Clarity — Minimalist Note App",
@@ -161,8 +160,7 @@ const allProjects = [
       "Clarity is a minimalist note-taking web app built with Express, Tailwind CSS v4, and DaisyUI. It offers real-time auto-save, instant note creation and deletion, multi-theme support with localStorage, and lightweight JSON-based storage — making it fast, simple, and distraction-free.",
     repoLink: "https://github.com/Jamal-Raja/clarity.git",
     liveAppLink: "https://clarity-7op9.onrender.com/",
-    screenshot:
-      "public/assets/images/project-screenshots/clarity-notes-app.png",
+    screenshot: "./assets/images/project-screenshots/clarity-notes-app.png",
   },
   {
     name: "Interactive To-Do List",
@@ -171,7 +169,7 @@ const allProjects = [
       "A dynamic to-do list application focused on DOM manipulation. Built using vanilla JavaScript, HTML, and CSS, the app provides a clean interface for adding, managing, and removing tasks. The emphasis is on core JavaScript functionality rather than framework-based behaviour.",
     repoLink: "https://github.com/Jamal-Raja/interactive-to-do-list.git",
     liveAppLink: "https://jamal-raja.github.io/interactive-to-do-list/",
-    screenshot: "public/assets/images/project-screenshots/to-do-list.jpeg",
+    screenshot: "./assets/images/project-screenshots/to-do-list.jpeg",
   },
   {
     name: "Wireframe-to-Production — Renaissance Construction",
@@ -181,6 +179,6 @@ const allProjects = [
     repoLink: "https://github.com/Jamal-Raja/wireframe-to-production.git",
     liveAppLink: "https://jamal-raja.github.io/wireframe-to-production/",
     screenshot:
-      "public/assets/images/project-screenshots/wireframe-to-production.jpeg",
+      "./assets/images/project-screenshots/wireframe-to-production.jpeg",
   },
 ];
