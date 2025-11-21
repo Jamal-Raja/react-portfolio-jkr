@@ -6,3 +6,11 @@
   /* background-color: black; */
   scroll-behavior: smooth;
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

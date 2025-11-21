@@ -18,12 +18,23 @@ export default function Project() {
           />
         </div>
         <div className="mx-12 my-18 max-w-[1200px] w-full">
-          <h1 className="text-4xl pb-18 px-12 md:px-0">Projects</h1>
+          <h1
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="text-4xl pb-18 px-12 md:px-0"
+          >
+            Projects
+          </h1>
           {/* cardgrid */}
           <div className="flex justify-center flex-wrap gap-10 sm:gap-8 md:gap-6 lg:gap-14">
             {allProjects.map((project) => {
               return (
-                <div className="w-full sm:basis-[calc(50%-1rem)] md:basis-[calc(50%-2rem)] lg:basis-[calc(50%-3.5rem)] ">
+                <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  className="w-full sm:basis-[calc(50%-1rem)] md:basis-[calc(50%-2rem)] lg:basis-[calc(50%-3.5rem)] "
+                  key={project.name}
+                >
                   <TiltedCard
                     imageWidth="0"
                     rotateAmplitude={6}
@@ -47,7 +58,10 @@ export default function Project() {
                           <div className="flex gap-2 justify-center flex-wrap">
                             {project.techStack.map((i) => {
                               return (
-                                <p className="bg-black text-white rounded-full px-2 py-1">
+                                <p
+                                  className="bg-black text-white rounded-full px-2 py-1"
+                                  key={i}
+                                >
                                   {i}
                                 </p>
                               );

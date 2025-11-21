@@ -6,8 +6,20 @@ export default function About() {
         className="bg-[#181A1C] text-white w-full py-18 px-12 flex justify-center"
       >
         <div className="max-w-[1200px]">
-          <h1 className="text-4xl">Get the highlights.</h1>
-          <p className="mt-6">
+          <h1
+            className="text-4xl"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-offset="100"
+          >
+            Get the highlights.
+          </h1>
+          <p
+            className="mt-6"
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+            data-aos-offset="100"
+          >
             I’m a UK-based full-stack developer and BCS Level 4 graduate with a
             focus on building efficient, scalable web applications. I enjoy
             creating clean, responsive interfaces and pairing them with
@@ -24,7 +36,12 @@ export default function About() {
             abilities forward.
           </p>
 
-          <div className="flex flex-col gap-8 text-4xl pt-8">
+          <div
+            className="flex flex-col gap-8 text-4xl pt-8"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+            data-aos-offset="100"
+          >
             {/* Front-end */}
             <div>
               <h3 className="text-xl mb-3 font-semibold">Front-end</h3>
