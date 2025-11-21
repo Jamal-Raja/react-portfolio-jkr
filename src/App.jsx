@@ -1,20 +1,19 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Project from "./components/Project";
-import "aos/dist/aos.css";
-import AOS from "aos";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Test from "./pages/Test";
 
 function App() {
-  AOS.init();
   return (
     <>
-      <Hero chevronLink="#About" />
-      <About />
-      <Project />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/test" element={<Test />}></Route>
+      </Routes>
     </>
   );
 }
 
 export default App;
 
-
+// TO DO:
+// - FIX PARTICLE BG HEIGHT FOR PROJECT SECTION
