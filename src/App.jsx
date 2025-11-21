@@ -17,9 +17,4 @@ function App() {
 
 export default App;
 
-/**  =================== TO DO ===================
- * - add project section __IN_PROGRESS⏳__
- * - animate about section text on scroll
- * - add contact section
- * - add easteregg 🐣
- */
+
