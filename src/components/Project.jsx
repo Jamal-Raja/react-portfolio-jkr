@@ -121,8 +121,7 @@ const allProjects = [
       "https://github.com/Jamal-Raja/sona-fullstack-blogging-platform.git",
     liveAppLink:
       "https://sona-fullstack-blogging-platform-production.up.railway.app/",
-    screenshot:
-      "public/assets/images/project-screenshots/sona-fullstack-blog.jpeg",
+    screenshot: "./assets/images/project-screenshots/sona-fullstack-blog.jpeg",
   },
   {
     name: "Citiline Accountants",
