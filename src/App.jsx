@@ -14,6 +14,3 @@ function App() {
 }
 
 export default App;
-
-// TO DO:
-// - FIX PARTICLE BG HEIGHT FOR PROJECT SECTION
