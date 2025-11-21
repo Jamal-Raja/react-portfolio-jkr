@@ -5,7 +5,7 @@ export default function Project() {
   return (
     <>
       <div className="w-full relative bg-black text-white flex flex-col items-center">
-        <div className="absolute inset-0 w-screen">
+        <div className="absolute inset-0 w-full">
           <Particles
             particleColors={["#ffffff", "#ffffff"]}
             particleCount={2000}
