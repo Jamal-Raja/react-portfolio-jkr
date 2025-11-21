@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio-jkr",
+  "homepage": "https://Jamal-Raja.github.io/react-portfolio-jkr/",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://Jamal-Raja.github.io/react-portfolio-jkr",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
