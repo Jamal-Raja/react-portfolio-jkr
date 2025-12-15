@@ -9,7 +9,7 @@ export default function Test() {
           to="/"
           className="text-white underline hover:scale-105 active:scale-95"
         >
-          Go Back Home
+          Go Back to Home
         </Link>
       </div>
     </>
