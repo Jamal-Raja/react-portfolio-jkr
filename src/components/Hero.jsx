@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import LiquidEther from "./LiquidEther";
 import TextType from "./TextType";
-import DecryptedText from "./DecryptedText";
+import { useState } from "react";
 
 export default function Hero({ chevronLink }) {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <>
       {/* Container */}
@@ -49,12 +51,30 @@ export default function Hero({ chevronLink }) {
       {/* Link to test Github */}
       <Link
         to="https://github.com/Jamal-Raja"
-        className="text-white underline hover:scale-105 active:scale-95 block w-min absolute left-0 bottom-0 m-4"
         target="_blank"
+        className="text-white hover:scale-105 active:scale-95 inline-flex items-center gap-2 absolute left-0 bottom-0 m-4 transition-transform"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
-        <svg class="w-5 fill-[#8e8e8e]" viewBox="0 0 384 512">
-          <path d="M192 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm51.3 182.7L224.2 307l49.7 49.7c9 9 14.1 21.2 14.1 33.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3l-73.9-73.9c-15.8-15.8-22.2-38.6-16.9-60.3l20.4-84c8.3-34.1 42.7-54.9 76.7-46.4c19 4.8 35.6 16.4 46.4 32.7L305.1 208H336V184c0-13.3 10.7-24 24-24s24 10.7 24 24v55.8c0 .1 0 .2 0 .2s0 .2 0 .2V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V272H296.6c-16 0-31-8-39.9-21.4l-13.3-20zM81.1 471.9L117.3 334c3 4.2 6.4 8.2 10.1 11.9l41.9 41.9L142.9 488.1c-4.5 17.1-22 27.3-39.1 22.8s-27.3-22-22.8-39.1zm55.5-346L101.4 266.5c-3 12.1-14.9 19.9-27.2 17.9l-47.9-8c-14-2.3-22.9-16.3-19.2-30L31.9 155c9.5-34.8 41.1-59 77.2-59h4.2c15.6 0 27.1 14.7 23.3 29.8z"></path>
+        {/* Github Icon */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          // width="16"
+          // height="16"
+          viewBox="0 0 16 16"
+          className="w-10 fill-[#8e8e8e]"
+          fill="#8e8e8e"
+        >
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
         </svg>
+
+        <span
+          className={`text-2xl  rounded-md px-2 transition-all duration-200 ${
+            isHovered ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-2"
+          }`}
+        >
+          Github Profile
+        </span>
       </Link>
     </>
   );
