@@ -5,7 +5,8 @@ export default function Project() {
   return (
     <>
       <div className="w-full relative bg-black text-white flex flex-col items-center">
-        <div className="absolute inset-0 w-full">
+        <div className="absolute inset-0 w-full h-full">
+          {/* Particle Background */}
           <Particles
             particleColors={["#ffffff", "#ffffff"]}
             particleCount={2000}
@@ -15,6 +16,7 @@ export default function Project() {
             moveParticlesOnHover={false}
             alphaParticles={false}
             disableRotation={false}
+            className="h-full w-full"
           />
         </div>
         <div className="mx-12 my-18 max-w-[1200px] w-full">
