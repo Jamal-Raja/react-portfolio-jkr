@@ -61,7 +61,7 @@ export default function Project() {
                             {project.techStack.map((i) => {
                               return (
                                 <p
-                                  className="bg-black text-white rounded-full px-2 py-1"
+                                  className="bg-black/60 text-white rounded-full px-2 py-1 outline outline-white/15"
                                   key={i}
                                 >
                                   {i}
@@ -104,7 +104,7 @@ export default function Project() {
 
 const allProjects = [
   {
-    name: "Finance Machine - Personal Finance Platform",
+    name: "Finance Machine",
     techStack: [
       "Next.js",
       "React",
@@ -117,7 +117,7 @@ const allProjects = [
       "React Flow",
     ],
     description:
-      "Finance Machine is a full-stack Next.js app with TypeScript, PostgreSQL, and Drizzle ORM. Built with OAuth authentication, React Flow–driven financial journeys, Recharts dashboards, and Resend email automation, it showcases scalable architecture, complex state management, and advanced full-stack problem solving.",
+      "Finance Machine is a full-stack Next.js app with TypeScript, PostgreSQL, and Drizzle ORM. It features OAuth login, an interactive React Flow financial roadmap, Recharts visualisations, a compound interest calculator, and automated resource delivery via Resend — blending modern architecture with a user-first financial experience.",
     repoLink: "https://github.com/Jamal-Raja/finance-machine",
     liveAppLink: "https://www.thefinancemachine.co.uk",
     screenshot: "./assets/images/project-screenshots/finance-machine.jpeg",
