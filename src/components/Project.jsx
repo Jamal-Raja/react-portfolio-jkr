@@ -104,6 +104,25 @@ export default function Project() {
 
 const allProjects = [
   {
+    name: "Finance Machine - Personal Finance Platform",
+    techStack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "NextAuth",
+      "TailwindCSS",
+      "Recharts",
+      "React Flow",
+    ],
+    description:
+      "Finance Machine is a full-stack Next.js app with TypeScript, PostgreSQL, and Drizzle ORM. Built with OAuth authentication, React Flow–driven financial journeys, Recharts dashboards, and Resend email automation, it showcases scalable architecture, complex state management, and advanced full-stack problem solving.",
+    repoLink: "https://github.com/Jamal-Raja/finance-machine",
+    liveAppLink: "https://www.thefinancemachine.co.uk",
+    screenshot: "./assets/images/project-screenshots/finance-machine.jpeg",
+  },
+  {
     name: "SONA – Full-Stack Blogging Platform",
     techStack: [
       "Node.js",

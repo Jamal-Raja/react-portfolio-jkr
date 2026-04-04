@@ -93,6 +93,11 @@ export default function About() {
                 </div>
 
                 <div className="flex items-center gap-2">
+                  <i class="devicon-nextjs-plain"></i>
+                  <span className="text-base">NEXT.js</span>
+                </div>
+
+                <div className="flex items-center gap-2">
                   <i className="devicon-express-original"></i>
                   <span className="text-base">Express</span>
                 </div>
