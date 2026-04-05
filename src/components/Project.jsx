@@ -150,7 +150,7 @@ const allProjects = [
     description:
       "Designed and built a fully responsive site using HTML, CSS, JavaScript, and Python, tailored for a professional accounting practice. Integrated Calendly to streamline client bookings, embedded a live HMRC news feed, and connected Slack webhooks to deliver instant callback notifications to the Citiline team. The result is a modern, client-focused platform that enhances efficiency and credibility.",
     repoLink: "https://github.com/Jamal-Raja/Citiline-Website.git",
-    liveAppLink: "https://jamal-raja.github.io/Citiline-Website/",
+    liveAppLink: "https://citiline.co.uk/",
     screenshot: "./assets/images/project-screenshots/citiline-accountants.jpeg",
   },
   {
