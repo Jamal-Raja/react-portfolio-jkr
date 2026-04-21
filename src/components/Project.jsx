@@ -182,15 +182,15 @@ const allProjects = [
     liveAppLink: "https://clarity-7op9.onrender.com/",
     screenshot: "./assets/images/project-screenshots/clarity-notes-app.png",
   },
-  {
-    name: "Interactive To-Do List",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    description:
-      "A dynamic to-do list application focused on DOM manipulation. Built using vanilla JavaScript, HTML, and CSS, the app provides a clean interface for adding, managing, and removing tasks. The emphasis is on core JavaScript functionality rather than framework-based behaviour.",
-    repoLink: "https://github.com/Jamal-Raja/interactive-to-do-list.git",
-    liveAppLink: "https://jamal-raja.github.io/interactive-to-do-list/",
-    screenshot: "./assets/images/project-screenshots/to-do-list.jpeg",
-  },
+  // {
+  //   name: "Interactive To-Do List",
+  //   techStack: ["HTML", "CSS", "JavaScript"],
+  //   description:
+  //     "A dynamic to-do list application focused on DOM manipulation. Built using vanilla JavaScript, HTML, and CSS, the app provides a clean interface for adding, managing, and removing tasks. The emphasis is on core JavaScript functionality rather than framework-based behaviour.",
+  //   repoLink: "https://github.com/Jamal-Raja/interactive-to-do-list.git",
+  //   liveAppLink: "https://jamal-raja.github.io/interactive-to-do-list/",
+  //   screenshot: "./assets/images/project-screenshots/to-do-list.jpeg",
+  // },
   {
     name: "Wireframe-to-Production — Renaissance Construction",
     techStack: ["HTML", "CSS", "JavaScript"],
